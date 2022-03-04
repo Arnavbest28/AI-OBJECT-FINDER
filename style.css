@@ -1,0 +1,38 @@
+.heading{
+    width: 100%;
+    background-color: brown;
+    border: none;
+    font-size:  30px;
+    margin-top: 0;
+    font-family:"Cochin";
+}
+
+body{
+    background-position: fixed;
+    background-size: cover;
+    height: 860px;
+}
+.c{
+font-size: 25px;
+}
+#input{
+    width: 20%;
+}
+
+
+canvas {
+    animation-name: example1;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    margin-top: 200px;
+}
+
+@keyframes example1 {
+    from {
+        box-shadow: 5px 5px 40px #03104a;
+    }
+
+    to {
+        box-shadow: -5px 5px 40px #0fa5db;
+    }
+}
